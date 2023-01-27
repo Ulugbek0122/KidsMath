@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/drawable/ic_back_svgrepo_com.xml" value="0.1795" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/drawable/ic_lock_svgrepo_com.xml" value="0.15" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/drawable/ic_settings_svgrepo_com.xml" value="0.15" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/drawable/iteem_back.xml" value="0.15" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/drawable/star_svgrepo_com_2.xml" value="0.15" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/drawable/switch_thumb_false.xml" value="0.198" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/drawable/switch_thumb_true.xml" value="0.198" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/drawable/thumb.xml" value="0.198" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/drawable/track.xml" value="0.163" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout-land/dialog_exit.xml" value="0.22" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout-land/dialog_info.xml" value="0.184375" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout-land/dilaog_setting.xml" value="0.184375" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout-land/screen_game.xml" value="0.14" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout-land/screen_level.xml" value="0.14" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout-land/screen_menu.xml" value="0.14" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout-land/screen_splash.xml" value="0.15" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout/dialog_exit.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout/dialog_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout/dilaog_level.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout/dilaog_setting.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout/item_level.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout/item_question.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout/item_rv.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout/screen_game.xml" value="0.14" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout/screen_level.xml" value="0.25" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout/screen_menu.xml" value="0.18" />
+        <entry key="..\:/Users/Ulug'bek/Downloads/Telegram Desktop/KidsMath/app/src/main/res/layout/screen_splash.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

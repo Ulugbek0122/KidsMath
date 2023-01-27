@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/containerMain"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/image44"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:padding="4dp"
+        android:id="@+id/back"
+        android:layout_width="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.07"
+        app:layout_constraintDimensionRatio="1:1"
+        android:src="@drawable/ic_back_svgrepo_com"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/liner"
+        android:layout_width="0dp"
+        android:layout_height="0dp">
+
+        <TextView
+            android:fontFamily="@font/mel"
+            android:textSize="30sp"
+            android:text="Level"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:fontFamily="@font/mel"
+            android:id="@+id/level"
+            android:layout_marginStart="10dp"
+            android:textSize="30sp"
+            android:text="1"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <Chronometer
+        android:fontFamily="@font/mel"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintWidth_percent="0.2"
+        android:id="@+id/time"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/numberOne"
+        android:text="25"
+        android:fontFamily="@font/mel"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@id/ans1"
+        app:layout_constraintRight_toLeftOf="@id/operation"
+        app:layout_constraintTop_toBottomOf="@id/liner"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/operation"
+        android:text="+"
+        android:fontFamily="@font/mel"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintRight_toLeftOf="@id/numberTwo"
+        app:layout_constraintLeft_toRightOf="@id/numberOne"
+        app:layout_constraintTop_toTopOf="@id/numberOne"
+        app:layout_constraintBottom_toBottomOf="@id/numberOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/numberTwo"
+        android:text="40"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:fontFamily="@font/mel"
+        app:layout_constraintRight_toLeftOf="@id/op"
+        app:layout_constraintTop_toTopOf="@id/operation"
+        app:layout_constraintBottom_toBottomOf="@id/operation"
+        app:layout_constraintLeft_toRightOf="@id/operation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/op"
+        android:text="="
+        android:textColor="@color/white"
+        android:fontFamily="@font/mel"
+        android:textSize="40sp"
+        app:layout_constraintRight_toLeftOf="@id/result"
+        app:layout_constraintTop_toTopOf="@id/numberTwo"
+        app:layout_constraintBottom_toBottomOf="@id/numberTwo"
+        app:layout_constraintLeft_toRightOf="@id/numberTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/ques"
+        android:text="\?"
+        android:fontFamily="@font/mel"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/op"
+        app:layout_constraintLeft_toRightOf="@id/op"
+        app:layout_constraintBottom_toBottomOf="@id/op"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/result"
+        android:fontFamily="@font/mel"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/op"
+        app:layout_constraintLeft_toRightOf="@id/op"
+        app:layout_constraintBottom_toBottomOf="@id/op"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:padding="5dp"
+        android:text="19"
+        android:textColor="@color/white"
+        android:fontFamily="@font/mel"
+        android:id="@+id/ans1"
+        android:textSize="40sp"
+        app:layout_constraintRight_toLeftOf="@id/ans2"
+        app:layout_constraintTop_toBottomOf="@id/numberOne"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:padding="5dp"
+        android:text="65"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:id="@+id/ans2"
+        android:fontFamily="@font/mel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/ans1"
+        app:layout_constraintLeft_toRightOf="@id/ans1"
+        app:layout_constraintRight_toLeftOf="@id/ans3"
+        app:layout_constraintTop_toTopOf="@id/ans1" />
+
+    <TextView
+        android:padding="5dp"
+        android:text="50"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/mel"
+        android:id="@+id/ans3"
+        app:layout_constraintTop_toTopOf="@id/ans2"
+        app:layout_constraintBottom_toBottomOf="@id/ans2"
+        app:layout_constraintLeft_toRightOf="@id/ans2"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

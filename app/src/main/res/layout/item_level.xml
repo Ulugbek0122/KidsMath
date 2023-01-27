@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="4dp"
+    android:background="@drawable/item_back_1"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/level"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.2">
+
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/game1"
+            android:text="1"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/lock"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_lock_svgrepo_com"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/game1"
+        android:text="Level"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/liner1"
+        app:layout_constraintRight_toLeftOf="@id/liner2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/liner2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/level"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.4">
+
+
+        <ImageView
+            android:id="@+id/starOne"
+            android:layout_width="35dp"
+            android:layout_height="35sp"
+            android:layout_margin="5dp"
+            android:src="@drawable/star_svgrepo_com_2"
+            android:visibility="gone" />
+
+        <ImageView
+
+            android:id="@+id/starTwo"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/star_svgrepo_com_2"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/starThree"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/star_svgrepo_com_2"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
